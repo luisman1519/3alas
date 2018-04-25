@@ -1,1 +1,87 @@
 /* estilos.css */
+
+:root{
+	--negro: #27262b;
+	--negroVerdadero: #000;
+	--blanco: #FFF;
+	--naranja: #f59a18;
+	--naranjaDos: #fe6e0d;
+	--amarillo: #ff9809;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: var(--negro);
+	background-image: url("images/pattern.jpg");
+	font-family: Arial, sans-serif;
+}
+
+.cabecera{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 16px;
+	margin-bottom: 24px; 
+	
+}
+
+h1{
+	color: var(--naranja);
+}
+
+.contenedor{
+	background-color: var(--blanco);
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.botonera{
+	background-color: var(--naranjaDos);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 15px;	
+	
+}
+
+.botonera-lista{	
+	
+	display: flex;
+	
+	list-style: none;	
+}
+
+.botonera-lista li{
+	flex-grow: 1;
+}
+
+.botonera a{	
+	display: block;
+	text-decoration: none;
+	color: var(--blanco);
+	border-right:1px solid var(--amarillo);
+	padding: 6px 0;
+	font-weight: bold;
+	text-align: center;		
+}
+
+.botonera a:hover{
+}
+
+a.sin-borde {
+	border-right: none;
+}
+	
+	
