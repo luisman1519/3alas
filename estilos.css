@@ -8,6 +8,7 @@
 	--naranjaDos: #fe6e0d;
 	--amarillo: #ff9809;
 	--grisClaro: #bfbfbf;
+	--gris: #fofofo;
 }
 
 *{
@@ -63,9 +64,19 @@ h1{
 .botonera{
 	background-color: var(--naranjaDos);
 	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-left: 15px;
 	border-radius: 8px 8px 0 0;	
+	
+}
+
+.botonera-lista_formulario{
+	margin-left: 100px;
+	margin-top: 3px;
+}
+
+.botonera-lista_formulario input{
+	padding: 2px 4px;
 	
 }
 
@@ -204,6 +215,45 @@ a.sin-borde {
 	padding: 5px 8px;
 		
 }
+
+.pie{
+	background-color: var(--gris);
+	padding: 6px 50px;
+	border-top: 1px solid var(--negroVerdadero);
+	margin-top: 30px;
+	font-size: 14px;
+	border: 1px solid var(--grisClaro);
+	color: #6a6969;
+}
+
+.pie-copy{
+	font-weight: normal;
+}
+
+.pie-copy, .pie-china, .pie-argentina{
+	float: left;	
+}
+
+.pie-creditos{
+	clear: both;
+	text-align: right;	
+}
+
+.pie-creditos a{
+	font-family: 'Courgette', sans-serif;
+}
+
+.pie-china{
+	border-right: 2px solid var(--grisClaro);
+	padding-right: 20px;
+    padding-left: 20px;	
+}
+
+.pie-argentina{
+	padding-left: 20px;
+}
+	
+
 
 
 
